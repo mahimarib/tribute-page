@@ -1,0 +1,128 @@
+html,
+body {
+    margin: 0;
+}
+
+/* * {
+    border: 1px magenta solid;
+} */
+
+body {
+    display: grid;
+    width: 100%;
+    height: 100vh;
+    justify-content: center;
+    align-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+nav {
+    width: 750px;
+}
+
+nav > ul {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+nav > ul > li {
+    list-style: none;
+    display: inline;
+}
+
+nav a {
+    font-family: 'Roboto Condensed', sans-serif;
+    text-decoration: none;
+    text-transform: uppercase;
+    color: #696969;
+    transition: 0.5s;
+}
+
+nav a:hover {
+    color: #000;
+}
+
+a.active {
+    color: #000;
+    margin-bottom: 10px;
+}
+
+a.active::after {
+    content: '';
+    display: block;
+    background-color: #000;
+    height: 2px;
+    margin-top: 5px;
+    left: 0;
+    right: 0;
+}
+
+main {
+    height: 50vh;
+    margin: 0;
+    padding: 5rem;
+}
+
+.quote {
+    max-width: 750px;
+    font-family: 'Fira Sans', sans-serif;
+    font-weight: 300;
+    font-style: italic;
+    font-size: 2.5rem;
+    color: #444;
+}
+
+blockquote {
+    all: unset;
+    line-height: 200%;
+}
+
+.quote em {
+    font-weight: 400;
+    font-style: italic;
+}
+
+.quote p {
+    text-align: right;
+}
+
+h1 {
+    font-family: 'Vollkorn', serif;
+    font-weight: 700;
+    font-size: 2em;
+}
+
+#about p,
+#contributions p,
+#contributions li {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 400;
+    color: #696969;
+    line-height: 1.8em;
+    margin-top: 0;
+}
+
+#about strong,
+#contributions strong {
+    color: #555;
+}
+
+#about,
+#contributions {
+    display: flex;
+    max-width: 1000px;
+    align-items: center;
+}
+
+#contributions > aside {
+    max-width: 500px;
+}
+
+#linux-img {
+    margin-right: 6em;
+}
