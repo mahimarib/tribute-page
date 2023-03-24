@@ -135,7 +135,7 @@ h1 {
 #about,
 #contributions {
     display: flex;
-    max-width: 1000px;
+    max-width: 1100px;
     align-items: center;
 }
 
