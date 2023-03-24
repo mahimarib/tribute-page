@@ -3,6 +3,10 @@ body {
     margin: 0;
 }
 
+* {
+    box-sizing: border-box;
+}
+
 body {
     display: grid;
     width: 100%;
@@ -58,19 +62,19 @@ a.active::after {
     right: 0;
 }
 
-main {
-    margin: 0;
-    padding: 5rem;
-    min-height: 600px;
-}
-
 .quote {
-    max-width: 750px;
+    max-width: 900px;
     font-family: 'Fira Sans', sans-serif;
     font-weight: 300;
     font-style: italic;
     font-size: 2.5rem;
     color: #444;
+}
+
+main {
+    margin: 0;
+    padding: 1em 2em;
+    height: 550px;
 }
 
 blockquote {
