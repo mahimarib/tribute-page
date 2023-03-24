@@ -59,9 +59,9 @@ a.active::after {
 }
 
 main {
-    height: 50vh;
     margin: 0;
     padding: 5rem;
+    min-height: 600px;
 }
 
 .quote {
