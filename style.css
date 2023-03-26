@@ -122,10 +122,13 @@ h1 {
     color: #696969;
     line-height: 1.8em;
     margin-top: 0;
+    margin-bottom: 1em;
 }
 
 #contributions li {
     margin-bottom: 1em;
+    margin-left: 1em;
+    padding-left: 0.75em;
 }
 
 #about strong,
